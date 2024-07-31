@@ -234,3 +234,16 @@ header {
   padding: 40px;
 }
 
+#Icone{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+.itens{
+  max-width: 250;
+  text-align: center;
+}
+
+
