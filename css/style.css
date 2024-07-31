@@ -114,21 +114,21 @@ header {
   gap: 7px;
 }
 
-.zap{
+.zap {
   text-decoration: none;
   color: #fff;
 }
 
-.ifood{
+.ifood {
   position: fixed;
   right: 0;
   top: 200px;
-  box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75); ;
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#BoasVindas{
+#BoasVindas {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -136,24 +136,24 @@ header {
   background: #fff;
 }
 
-#BoasVindas img{
+#BoasVindas img {
   padding: 0 100px;
 }
 
-#TextoBoasVindas{
+#TextoBoasVindas {
   max-width: 600px;
   padding-right: 100px;
 }
 
-#TextoBoasVindas h4{
+#TextoBoasVindas h4 {
   text-transform: uppercase;
   font-size: 13px;
   margin: 0;
   padding-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#TextoBoasVindas h3{
+#TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
   color: #e7a200;
@@ -162,7 +162,7 @@ header {
   margin-top: 20px;
 }
 
-#TextoBoasVindas p{
+#TextoBoasVindas p {
   margin-bottom: 0;
 }
 
@@ -172,27 +172,26 @@ header {
   align-items: center;
 }
 
-#Cardapio div{
+#Cardapio div {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-#Cardapio img{
+#Cardapio img {
   padding: 36px 0;
 }
 
 #Cardapio div img {
   padding: 0;
-
 }
 
-#cardapio h2{
-color: #d03012;
-text-transform: uppercase;
-font-size: 28px;
-font-weight: 900;
-margin: 0 0 7px 0;
+#cardapio h2 {
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0;
 }
 
 .btncardapio {
@@ -212,5 +211,26 @@ margin: 0 0 7px 0;
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+}
+
+#Delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100PX;
+}
+
+#Delivery h1{
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
+
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
 }
 
