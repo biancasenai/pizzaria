@@ -13,7 +13,8 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.webp)
+    no-repeat center/cover;
   /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080); 
@@ -101,7 +102,7 @@ header {
   font-size: 25px;
 }
 
-.Zap{
+.Zap {
   text-decoration: none;
   color: #fff;
 }
@@ -127,11 +128,9 @@ header {
 .ifood {
   position: fixed;
   right: 0;
-  z-index: 10px;
   top: 200px;
-  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
+  z-index: 10;
 }
 
 #BoasVindas {
@@ -144,6 +143,7 @@ header {
 
 #BoasVindas img {
   padding: 0 100px;
+  max-width: 300px 200px;
 }
 
 #TextoBoasVindas {
@@ -226,10 +226,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100PX;
+  gap: 100px;
 }
 
-#Delivery h1{
+#Delivery h1 {
   text-transform: uppercase;
   color: #bf0a26;
   font-weight: 900;
@@ -240,19 +240,19 @@ header {
   padding: 40px;
 }
 
-#Icone{
+#Icone {
   display: flex;
   justify-content: center;
   gap: 70px;
   margin: 20px 0;
 }
 
-.itens{
+.itens {
   max-width: 250;
   text-align: center;
 }
 
-#Contato iframe{
+#Contato iframe {
   position: absolute;
 }
 
@@ -261,8 +261,7 @@ header {
   justify-content: center;
 }
 
-
-.forms{
+.forms {
   z-index: 2;
   width: 530px;
   max-width: 100%;
@@ -275,14 +274,14 @@ header {
   justify-content: center;
 }
 
-.forms h2{
+.forms h2 {
   color: #e7a200;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
 }
 
-.forms p{
+.forms p {
   margin: 0;
   margin-top: -12px;
   margin-bottom: 13px;
@@ -294,7 +293,7 @@ header {
 }
 
 .forms input,
-.forms textarea{
+.forms textarea {
   padding: 0 16px;
   line-height: 36px;
   background: transparent;
@@ -306,20 +305,20 @@ header {
   margin-bottom: 10px;
 }
 
-.forms form{
+.forms form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.forms input[type="submit"]{
+.forms input[type="submit"] {
   background: #e7a200;
   border-color: #e7a200;
   width: 155px;
   border-radius: 50px;
   color: #fff;
   font-weight: 700;
-margin-top: 20px;  
+  margin-top: 20px;
 }
 
 footer {
@@ -332,32 +331,26 @@ footer {
   justify-content: space-evenly;
 }
 
-
 footer #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
 }
 
-
 #dados p,
 #dados h4 {
   margin: 0;
 }
 
-
 #dados h4 {
   margin-top: 10px;
 }
-
 
 footer #dados:first-child {
   margin-left: 20%;
 }
 
-
 #copyright {
   text-align: center;
   margin-top: 100px;
 }
-
